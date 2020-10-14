@@ -1,8 +1,8 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: zh
 pipeline:
-  - name: WhitespaceTokenizer
+  - name: JiebaTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -11,7 +11,7 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 30
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100

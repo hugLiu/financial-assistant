@@ -1,32 +1,22 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- thanks
+- bot_challenge
+- request_fund
+responses:
+  utter_greet:
+  - text: 您好，我是您的机器人助手，有什么需要帮助的吗？
+  utter_did_that_help:
+  - text: 还有其它问题需要帮助您的吗？
+  utter_goodbye:
+  - text: 再见
+  utter_iamabot:
+  - text: 我是您的机器人助手
+  utter_what_is_fund:
+  - text: "基金是指通过公开发售基金份额筹集资金，由基金托管人托管，基金管理人管理和运作的一种利益共享、风险共担的集合投资方式。\n简单来说，你把资金交给基金公司，基金公司凭借专业的投资知识与技能获取收益，其中基金管理人负责让资产保值增值，基金托管人则负责资产保管、交易监督等等。"

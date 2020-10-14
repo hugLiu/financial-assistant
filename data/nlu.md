@@ -2,55 +2,42 @@
 - hey
 - hello
 - hi
-- good morning
-- good evening
-- hey there
+- 你好！
+- 您好
+- 机器人，你好
+- 你好，机器人
 
 ## intent:goodbye
 - bye
-- goodbye
-- see you around
-- see you later
+- 886
+- 再见
 
 ## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+- 是的
+- 可以
+- 嗯！！！
+- 好的
+- 行！
 
 ## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+- 不行
+- 不！！！
+- No
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:thanks
+- 感谢
+- 谢谢
+- 非常感谢
+- 蟹蟹
 
 ## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+- 你是机器人还是人工客服？
+- 你是机器人吗？
+- 你是人工客服吗?
+
+## intent:request_fund
+- 什么是基金？
+- 你好，请问什么是基金?
+- 基金是什么？
+
