@@ -8,7 +8,18 @@ intents:
 - deny
 - thanks
 - bot_challenge
-- request_fund
+- request_fund_what
+- request_buy_advice
+- request_market_info
+entities:
+- fundname
+- date
+- index
+slots:
+  fundname:
+    type: text
+  index:
+    type: text
 responses:
   utter_greet:
   - text: 您好，我是您的机器人助手，有什么需要帮助的吗？
@@ -20,3 +31,7 @@ responses:
   - text: 我是您的机器人助手
   utter_what_is_fund:
   - text: "基金是指通过公开发售基金份额筹集资金，由基金托管人托管，基金管理人管理和运作的一种利益共享、风险共担的集合投资方式。\n简单来说，你把资金交给基金公司，基金公司凭借专业的投资知识与技能获取收益，其中基金管理人负责让资产保值增值，基金托管人则负责资产保管、交易监督等等。"
+  utter_fund_advice:
+  - text: 基金是高风险产品，建议您先学习基金知识，结合自身情况再进行交易，您可以查看以下链接进行学习。
+actions:
+- action_index_search
