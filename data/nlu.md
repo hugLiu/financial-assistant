@@ -64,12 +64,12 @@
 - [分红](bonus)是分自己的本金吗?
 
 
-# intent: fee_rule          <!--手续费规则-->
+## intent: fee_rule          <!--手续费规则-->
 - 问一下[超级转换](super_convert)有[手续费](fee)吗？
 - 这只基金的[手续费](fee)是怎样
 
 
-# intent: trade_rule    <!--交易规则-->
+## intent: trade_rule    <!--交易规则-->
 - 昨天15点之前[卖]{"entity": "trade", "value": "sell"}的，今天涨跌和我有关系吗？
 - [今天](date)[买]{"entity": "trade", "value": "sell"}点，计算当天的收益吗
 - [周六，日](date)有收益吗？[节假日](date)哪？
@@ -79,7 +79,7 @@
 - 可以[卖]{"entity": "trade", "value": "sell"}吗？
 
 
-# intent: trade_advice    <!--交易建议-->
+## intent: trade_advice    <!--交易建议-->
 - 今天可以[上车]{"entity": "trade", "value": "buy"}吗？
 - 你好，请问[购买]{"entity": "trade", "value": "buy"}哪只[基金]{"entity": "security", "value": "fund"}好？
 - 我应该[买]{"entity": "trade", "value": "buy"}哪个[基金]{"entity": "security", "value": "fund"}？
@@ -96,7 +96,7 @@
 - [买入]{"entity": "trade", "value": "buy"}，[卖出]{"entity": "trade", "value": "sell"}失败
 - 交易执行超时关单，这是什么意思？
 
-# intent: complain  <!-- 抱怨 -->
+## intent: complain  <!-- 抱怨 -->
 - 今天不应该跌吗？
 - 不能[加仓]{"entity": "trade", "value": "buy"}，玩锤子
 
