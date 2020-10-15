@@ -9,8 +9,15 @@ intents:
 - thanks
 - bot_challenge
 - request_fund_what
-- request_buy_advice
-- request_market_info
+- market_info
+- bonus_history
+- bonus_rule
+- fee_rule
+- trade_rule
+- trade_advice
+- order_fail
+- complain
+
 entities:
 - fundname
 - date
