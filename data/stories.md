@@ -10,30 +10,38 @@
 * bot_challenge
   - utter_iamabot
 
-## request what fund
+## story 1 <!-- 询问什么基金 -->
 * greet
   - utter_greet
-* request_fund_what
-  - utter_what_is_fund
+* concept_explain
+  - action_concept_explain
 
-## fund buy advice
+## story 2  <!-- 询问购买建议 -->
 *greet
   - utter_greet
-* request_buy_advice
+* trade_advice
   - utter_fund_advice
 * thanks
   - utter_did_that_help
 * deny
   - utter_goodbye
 
-## request index info 1
+## story 3   <!-- 请求指数多少点 -->
 * greet
   - utter_greet
-* request_market_info{"index": "上证指数"}
+* market_info{"index": "上证指数"}
   - action_index_search
 * thanks
   - utter_did_that_help
 * deny
   - utter_goodbye
 
-
+## story 4   <!-- 询问手续费 -->
+* greet
+  - utter_greet
+* fee_rule{"fee": "手续费"}
+  - action_fee_search
+* thanks
+  - utter_did_that_help
+* deny
+  - utter_goodbye
