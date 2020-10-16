@@ -35,11 +35,12 @@
 - 你是机器人吗？
 - 你是人工客服吗?
 
-## intent:request_fund_what
+## intent:concept_explain
 - 什么是[基金]{"entity": "security", "value": "fund"}？
 - 你好，请问什么是[基金]{"entity": "security", "value": "fund"}?
 - [基金]{"entity": "security", "value": "fund"}是什么？
 - [基金]{"entity": "security", "value": "fund"}
+- 什么是[超级转换](super_convert)
 
 ## intent:market_info
 - [上证指数](index)
@@ -66,13 +67,12 @@
 
 ## intent: fee_rule          <!--手续费规则-->
 - 问一下[超级转换](super_convert)有[手续费](fee)吗？
-- 这只基金的[手续费](fee)是怎样
+- 这只[基金]{"entity": "security", "value": "fund"}的[手续费](fee)是怎样
 
 
 ## intent: trade_rule    <!--交易规则-->
 - 昨天15点之前[卖]{"entity": "trade", "value": "sell"}的，今天涨跌和我有关系吗？
-- [今天](date)[买]{"entity": "trade", "value": "sell"}点，计算当天的收益吗
-- [周六，日](date)有收益吗？[节假日](date)哪？
+- 今天[买]{"entity": "trade", "value": "buy"}，计算当天的收益吗
 - 为什么还是不能[买]{"entity": "trade", "value": "buy"}？
 - 我就想问什么时候才能[买]{"entity": "trade", "value": "buy"}？
 - 啥时候能[卖]{"entity": "trade", "value": "sell"}呢？

@@ -8,7 +8,7 @@ intents:
 - deny
 - thanks
 - bot_challenge
-- request_fund_what
+- concept_explain
 - market_info
 - bonus_history
 - bonus_rule
@@ -41,4 +41,6 @@ responses:
   utter_fund_advice:
   - text: 基金是高风险产品，建议您先学习基金知识，结合自身情况再进行交易，您可以查看以下链接进行学习。
 actions:
+- action_concept_explain
 - action_index_search
+- action_fee_search
